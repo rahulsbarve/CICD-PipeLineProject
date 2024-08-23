@@ -4,5 +4,5 @@ resource "google_storage_bucket" "my-bucket" {
   force_destroy            = true
   project                  = "opentelemetry-demo-428711"
   public_access_prevention = "enforced"
-  
+
 }
